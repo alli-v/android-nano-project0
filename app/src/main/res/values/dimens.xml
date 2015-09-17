@@ -4,4 +4,12 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="app_bar_height">180dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+
+    <!--Button dimensions -->
+    <dimen name="btnTextSize">16dp</dimen>
+    <dimen name="btnMargin">10dp</dimen>
+
+    <!--Heading dimensions -->
+    <dimen name="headingMargin">10dp</dimen>
+
 </resources>
