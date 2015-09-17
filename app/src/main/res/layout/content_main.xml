@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/activity_title"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:padding="50dp">
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/p_1"
+            android:id="@+id/button"
+            android:background="@color/teal_50"/>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/p_2"
+            android:id="@+id/button2"
+            android:background="@color/teal_100"/>
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/p_3"
+            android:id="@+id/button3"
+            android:background="@color/teal_200"/>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/p_4"
+            android:id="@+id/button4"
+            android:background="@color/teal_300"/>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/p_5"
+            android:id="@+id/button5"
+            android:background="@color/teal_400"/>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/p_6"
+            android:id="@+id/button6"
+            android:background="@color/teal_500"
+            android:textColor="@color/teal_50"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
